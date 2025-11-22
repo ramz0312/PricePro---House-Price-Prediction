@@ -1,1 +1,7 @@
-
+# backend/requirements.txt - Python Dependencies
+Flask             # Web framework for the API
+pandas            # Data analysis and manipulation
+numpy             # Numerical computing, essential for ML
+scikit-learn      # Core machine learning library for regression
+gunicorn          # Production HTTP server (optional but good practice)
+python-dotenv     # To load configuration from .env files
